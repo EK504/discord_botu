@@ -23,7 +23,8 @@ async def tukettigimesyalardanneyapabilirim(ctx):
         "Pet şişeden oyuncak yapabilirsin",
         "Eski tişörtlerden bez çanta yapabilirsin.",
         "plastik şişeden evcil hayvanıza su kabı ve yemek kabı yapabilirsin.",
-        "karton ile cetvel yapabilirsin."
+        "karton ile cetvel yapabilirsin.",
+        "karton ile geri dönüşüm kutusu yapabilirsin."
     ]
     await ctx.send(f"Fikir : {random.choice(fikirler)}")
 
